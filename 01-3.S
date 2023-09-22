@@ -1,4 +1,4 @@
-// for (i = a; i >= 0; --i) { cout << i << '\n'; }
+// for (i = a_; i >= 0; --i) { cout << i << '\n'; }
 
 .global main
 main:
