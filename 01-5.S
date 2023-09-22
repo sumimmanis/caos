@@ -14,16 +14,17 @@ main:
         cmp $0, %ebx
         jl if_signed
 
-        for:
-                shl $1, %ebx
-                subl $2147483647, %ebx
-                jo if_one
+
+for:
+        shl $1, %ebx
+        subl $2147483647, %ebx
+        jo if_one
 
 
-        continue:
-                subl $1, %ecx
-                jg for
-                jmp print
+continue:
+        subl $1, %ecx
+        jg for
+        jmp print
 
 
 if_one:
