@@ -1,4 +1,4 @@
-// for (i = a_; i >= 0; --i) { cout << i << '\n'; }
+// read a_; write a_, ..., 0
 // using simpleio.S
 
 .global main
