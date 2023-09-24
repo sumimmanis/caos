@@ -1,4 +1,6 @@
 // count ones in binary reprsentation of a_
+// using simpleio.S
+
 
 .global main
 main:
