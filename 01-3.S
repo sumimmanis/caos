@@ -1,4 +1,4 @@
-// read a_; write a_, ... 1, 0
+// write x, ... 1, 0
 // using simpleio.S
 
 .global main
