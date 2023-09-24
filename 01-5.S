@@ -4,6 +4,10 @@
 
 .global main
 main:
+        xor %ebx, %ebx
+        xor %ecx, %ecx
+        xor %edx, %edx
+
         call readi32
         movl %eax, %ebx
         movl $31, %ecx
