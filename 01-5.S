@@ -1,4 +1,4 @@
-// count ones in binary reprsentation of a_
+// count ones in binary reprsentation of x
 // using simpleio.S
 
 .global main
