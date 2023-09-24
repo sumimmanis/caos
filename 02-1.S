@@ -4,6 +4,8 @@
 .global main
 main:
         xorl %ebx, %ebx
+
+
 read:
         call readi32
         jc print
