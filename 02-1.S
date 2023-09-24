@@ -1,3 +1,5 @@
+// read x, y, ... z; write z, ... x, y
+// using simpleio.S
 
 .global main
 main:
