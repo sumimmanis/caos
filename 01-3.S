@@ -1,8 +1,8 @@
 // for (i = a_; i >= 0; --i) { cout << i << '\n'; }
+// using simpleio.S
 
 .global main
 main:
-	xor %eax, %eax
 	call readi32
 	movl %eax, %ebx
 
