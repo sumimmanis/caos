@@ -1,4 +1,4 @@
-//check if palindrome
+// check if palindrome
 
 .data
 table:
@@ -19,14 +19,14 @@ main:
 
 L1:
         call    getchar
-        cmp     $10, %eax
+        cmp     $10, %eax        // ends with '\n'
         je      L2
         incl    table(, %eax, 4)
         jmp     L1
 
 L2:
         call    getchar
-        cmp     $10, %eax
+        cmp     $10, %eax        // ends with '\n'
         je      P3
         decl    table(, %eax, 4)
         jmp     L2
@@ -44,7 +44,7 @@ L3:
         jmp     L3
 
 SC:
-        movl    $0, table+128
+        movl    $0, table+128        // ignore spaces
 
 P4:
         movl    $0, %eax
