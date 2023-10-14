@@ -44,7 +44,7 @@ L3:
         jmp     L3
 
 SC:
-        movl    $0, table+128    // ignore spaces
+        movl    $0, table+128     // ignore spaces
 
 P4:
         movl    $0, %eax
