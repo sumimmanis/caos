@@ -16,13 +16,13 @@ main:
         push    %ebp
         mov     %esp, %ebp
         
-        push    $ret              // return adress
+        push    $return              // return adress
         push    %ebp            
-        mov     %esp, %ebp      // prologue
+        mov     %esp, %ebp           // prologue
         
         mov     $process, %eax
         jmp     *%eax
-ret
+return
         push    %eax
         push    $format
         call    printf
