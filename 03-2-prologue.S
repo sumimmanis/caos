@@ -22,7 +22,7 @@ main:
         
         mov     $process, %eax
         jmp     *%eax
-return
+return:
         push    %eax
         push    $format
         call    printf
